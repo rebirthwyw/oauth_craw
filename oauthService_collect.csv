@@ -1,3 +1,4 @@
+service,link
 500px,api.500px.com/v1/oauth/request_token
 Amazon,www.amazon.com/ap/oa
 AOL,api.login.aol.com/oauth2/request_auth
