@@ -13,4 +13,10 @@ table target(id,url)
 table result(id,url,isUse,oauthService,oauthLink,loginLink)  
 
 ## oauthService
-base on https://en.wikipedia.org/wiki/List_of_OAuth_providers  
+base on https://en.wikipedia.org/wiki/List_of_OAuth_providers
+result in oauthService_collect.csv
+
+## login
+judge a link as a login link  
+use words to identify
+["login","signin","auth","access","account","user"]
