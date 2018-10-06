@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+DOWNLOAD_DELAY = 1.5
+TREADING_COUNT = 1
+CHROME_ENABLE = True

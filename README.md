@@ -8,7 +8,7 @@ timestamp is 2018-10-02-19:45
 ```head -n 100000 top-1m.csv > top-100000.csv```  
 
 ## mysql
-db oauth_craw  
+db OauthCraw  
 table target(id,url)  
 table result(id,url,isUse,oauthService,oauthLink,loginLink)  
 
@@ -19,4 +19,4 @@ result in oauthService_collect.csv
 ## login
 judge a link as a login link  
 use words to identify
-["login","signin","auth","access","account","user"]
+["login","signin","oauth"]  
