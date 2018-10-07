@@ -19,7 +19,7 @@ class HandleReq:
 {"service":"AOL","pattern":"api\.login\.aol\.com\/oauth2\/request_auth"},
 {"service":"Autodesk","pattern":"developer\.api\.autodesk\.com\/authentication\/v[0-9\.]+\/authorize"},
 {"service":"Basecamp","pattern":"launchpad\.37signals\.com\/authorization\/new"},
-{"service":"Battle\.net","pattern":"battle\.net\/oauth\/authorize|www\.battlenet\.com\.cn\/oauth\/authorize"},
+{"service":"Battle.net","pattern":"battle\.net\/oauth\/authorize|www\.battlenet\.com\.cn\/oauth\/authorize"},
 {"service":"Bitbucket","pattern":"bitbucket\.org\/site\/oauth2\/authorize"},
 {"service":"bitly","pattern":"bitly\.com\/oauth\/authorize"},
 {"service":"Box","pattern":"account\.box\.com\/api\/oauth2\/authorize"},
@@ -66,7 +66,7 @@ class HandleReq:
 {"service":"Zendesk","pattern":"zendesk\.com\/oauth\/authorizations\/new"},
 {"service":"Tecent QQ","pattern":"graph\.qq\.com\/oauth2\.0\/show"},
 {"service":"Wechat","pattern":"open\.weixin\.qq\.com\/connect\/qrconnect"},
-{"service":"mail\.ru","pattern":"connect\.mail\.ru\/oauth\/authorize"},
+{"service":"mail.ru","pattern":"connect\.mail\.ru\/oauth\/authorize"},
 {"service":"jd","pattern":"openlogin\.jd\.com\/oauth2\/login"},
 {"service":"baidu","pattern":"openapi\.baidu\.com\/oauth\/2\.0\/authorize"}]
 		return
