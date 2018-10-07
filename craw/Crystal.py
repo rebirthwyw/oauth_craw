@@ -51,7 +51,7 @@ class Crystal:
             if not self._queue.empty():
                 pagelink = self._queue.pop()
                 self._num = self._num + 1
-                if (self._num >= 7):
+                if (self._num >= 10):
                     break
                 host = self._hostInfo["host"]
                 proxy = {"http":"http://127.0.0.1:8000"}

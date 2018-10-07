@@ -59,13 +59,12 @@ class Parser:
                 LogUtil.e(traceback.format_exc())
                 url = False
             if url is not False:
-                patterns = ["login","signin","oauth"]
-                for pattern in patterns:
-                    if re.search(pattern, url):
-                        if (url not in self.bloom):
-                            self.bloom.add(url)
-                            self.queue.put(url)
-                        break
+                pattern = re.compile("login|signin|oauth|log-in|sign-in",re.I)
+                if pattern.search(url):
+                    if (url not in self.bloom):
+                        self.bloom.add(url)
+                        self.queue.put(url)
+                    break
 
     def standardizeUrl(self,host,url):
         
