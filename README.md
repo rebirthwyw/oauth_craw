@@ -23,3 +23,6 @@ use words to identify
 
 ## proxy
 use mitmproxy to capture the 302  
+
+## result.csv
+in data folder  
