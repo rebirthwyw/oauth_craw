@@ -20,3 +20,6 @@ result in oauthService_collect.csv
 judge a link as a login link  
 use words to identify
 ["login","signin","oauth"]  
+
+## proxy
+use mitmproxy to capture the 302  
