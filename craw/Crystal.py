@@ -98,6 +98,7 @@ class Crystal:
             r = requests.get("http://127.0.0.1/a_new_task_here_rebirth?url="+urllib.pathname2url(str(self.start_url[0])) , proxies=proxy, timeout=5)
         except Exception,e:
             LogUtil.e(traceback.format_exc())
+            exit()
         LogUtil.i("设置URL完成")
 
     def initConfig(self):
